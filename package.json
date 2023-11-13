@@ -10,7 +10,6 @@
     "@grpc/grpc-js": "^1.9.9",
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
-    "protoc-gen-js": "^3.21.2",
     "ts-node": "^10.9.1",
     "ts-proto": "^1.164.0",
     "tsconfig": "workspace:*",
@@ -18,5 +17,9 @@
     "typescript": "^5.2.2"
   },
   "packageManager": "pnpm@8.6.10",
-  "name": "monorepo-next-grpc"
+  "name": "monorepo-next-grpc",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.7.10",
+    "@typescript-eslint/parser": "^6.10.0"
+  }
 }
